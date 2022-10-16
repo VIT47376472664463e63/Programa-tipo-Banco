@@ -1,5 +1,7 @@
 
 
+
+
 using System;
 
 using System.Net.NetworkInformation;
@@ -9,12 +11,12 @@ namespace Programa
 {
 
     class Program
-    
     {
     
         struct Menu
         
         {
+        
 
             public string nombre;
             public string usuario;
@@ -28,24 +30,13 @@ namespace Programa
 
         }
 
-        struct Platillo
-        {
-            public string platillo;
-            public string cali;
 
-        }
 
-        struct Pelicula
-        {
-            public string pelicula;
-            public string calif;
-
-        }
+        
         static void Main(string[] args)
         {
             Menu p = new Menu();
-            Platillo a = new Platillo();
-            Pelicula g = new Pelicula();
+           
             bool correrPrograma = true;
             while (correrPrograma == true)
             {
@@ -122,9 +113,7 @@ namespace Programa
                 string confirmación2 = Console.ReadLine();
                 if (confirmación2 == p.contra)
                 {
-                    Platillo a = new Platillo();
-                    Pelicula g = new Pelicula();
-
+                  
                     bool correrPrograma = true;
                     while (correrPrograma == true)
                     {
